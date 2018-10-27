@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+    "tabBar": {
+    "color": "#fff",
+    "selectedColor": "#fff",
+    "borderStyle": "black",
+    "backgroundColor":"#6A7D8F",
+    "list": [
+      {
+          "pagePath":"pages/index",
+          "text":"群对接",
+          "iconPath":"/static/new.png",
+          "selectedIconPath":"/static/new-activity.png"
+      },
+      {
+          "pagePath":"pages/possess/index",
+          "text":"全民代言",
+          "iconPath":"/static/book.png",
+          "selectedIconPath":"/static/book-activity.png"
+      },
+      {
+          "pagePath":"pages/member/index",
+          "text":"个人中心",
+          "iconPath":"/static/book.png",
+          "selectedIconPath":"/static/book-activity.png"
+      }
+    ]
+  },
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": true,
+  "subPackages": []
+}
